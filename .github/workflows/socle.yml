@@ -22,6 +22,9 @@ jobs:
 
   ato:
     runs-on: ubuntu-latest
+    env:
+      # Point de branchement si l'API change : ATO_SERVICES_COMPONENTS_API_URL
+      ATO_SERVICES_COMPONENTS_API_URL: https://components.atopileapi.com
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -29,5 +32,11 @@ jobs:
           python-version: "3.14"
       - run: pip install -r ato/requirements-ato.txt
       - run: ato --version
+      # Gate dure : élaboration + contraintes, 100 % locale (pas de réseau).
+      - run: ato view --export build/graph.json
+        working-directory: ato/demo
+      # Build complet (picking = API amont, actuellement HS : voir ato/README).
+      # Non bloquant en attendant le retour du service ; le log fait foi.
       - run: ato build -t default
         working-directory: ato/demo
+        continue-on-error: true
