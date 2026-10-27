@@ -1,3 +1,5 @@
 # atopile épinglé SANS fork (cf. ticket recherche extension, branche research/atopile-extension)
 # Même tag que les fichiers demo/ (syntaxe + requires-atopile cohérents).
 atopile @ git+https://github.com/atopile/atopile.git@v0.14.3
+# zip_equal retiré de more-itertools en 10.8.0, requis par faebryk à ce tag.
+more-itertools==10.7.0
