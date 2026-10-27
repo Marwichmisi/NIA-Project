@@ -1,0 +1,119 @@
+{
+  "version": 1,
+  "skills": {
+    "agent": {
+      "source": "atopile/atopile",
+      "sourceType": "github",
+      "skillPath": ".claude/skills/agent/SKILL.md",
+      "computedHash": "aa8fca29b8e5d34fc10905d082581f3b1566c5906e8cc8e768f75307279bac89"
+    },
+    "agent-summary": {
+      "source": "atopile/atopile",
+      "sourceType": "github",
+      "skillPath": ".claude/skills/agent-summary/SKILL.md",
+      "computedHash": "cd710987a0573bb7542d0c76ffac68be7d8664a7db85d7011482c5b1f9b4e964"
+    },
+    "ato": {
+      "source": "atopile/atopile",
+      "sourceType": "github",
+      "skillPath": ".claude/skills/ato/SKILL.md",
+      "computedHash": "0d93d00429ab9a225d5a27b9dbcdee63f018ad5a10a3fc444691dadc2207d40e"
+    },
+    "ato-language": {
+      "source": "atopile/atopile",
+      "sourceType": "github",
+      "skillPath": ".claude/skills/ato-language/SKILL.md",
+      "computedHash": "ff82b4382cea51cd8f2ef0720739ca6f6d5a3cd1371bae04150c4de708224466"
+    },
+    "atopile-skills": {
+      "source": "atopile/atopile",
+      "sourceType": "github",
+      "skillPath": ".claude/skills/atopile-skills/SKILL.md",
+      "computedHash": "f78060869179cc87a9203ca5440497eb41590c3347039d9b3f171ca24d6f872b"
+    },
+    "code-review": {
+      "source": "atopile/atopile",
+      "sourceType": "github",
+      "skillPath": ".claude/skills/code-review/SKILL.md",
+      "computedHash": "21424a2f3ab09a66484850435d96b392697211453ac363db3ec7cea1057dc377"
+    },
+    "compiler": {
+      "source": "atopile/atopile",
+      "sourceType": "github",
+      "skillPath": ".claude/skills/compiler/SKILL.md",
+      "computedHash": "ec6c8a8df34ff470dc2a8e4e7b2a400deb4e9ecaf8377b889e63037d761b2fe5"
+    },
+    "dev": {
+      "source": "atopile/atopile",
+      "sourceType": "github",
+      "skillPath": ".claude/skills/dev/SKILL.md",
+      "computedHash": "dd47b81ab0a71dfdc5d8ea847b6788f8a0fcbdc71565681d6736e2a56b2586ed"
+    },
+    "domain-layer": {
+      "source": "atopile/atopile",
+      "sourceType": "github",
+      "skillPath": ".claude/skills/domain-layer/SKILL.md",
+      "computedHash": "73110a208fd0ab189c4e4cfc505c60accec09b16443f21b43725c000e0252664"
+    },
+    "fabll": {
+      "source": "atopile/atopile",
+      "sourceType": "github",
+      "skillPath": ".claude/skills/fabll/SKILL.md",
+      "computedHash": "9925b38fb8191a08777e9e97aee127193fb78d13cd4273d79fdc73dbd9d5cac2"
+    },
+    "faebryk": {
+      "source": "atopile/atopile",
+      "sourceType": "github",
+      "skillPath": ".claude/skills/faebryk/SKILL.md",
+      "computedHash": "af80048168e11c12e292e08f6c8343fa994acd482f405f752b3fb7c17fa0eec0"
+    },
+    "frontend": {
+      "source": "atopile/atopile",
+      "sourceType": "github",
+      "skillPath": ".claude/skills/frontend/SKILL.md",
+      "computedHash": "eeb588ec8c9cac3ebbdc702bbc10bfe31f303a9335c14ba247d578d1fb5b14e7"
+    },
+    "graph": {
+      "source": "atopile/atopile",
+      "sourceType": "github",
+      "skillPath": ".claude/skills/graph/SKILL.md",
+      "computedHash": "668b97ecc683a40198069ecdc5661a7f5ebdba06ac9bb0b5b1e288936ae9f507"
+    },
+    "library": {
+      "source": "atopile/atopile",
+      "sourceType": "github",
+      "skillPath": ".claude/skills/library/SKILL.md",
+      "computedHash": "de9ab5062dc179de4f21ada39840249cfb835d2615dfce800ba90c3dd45a0113"
+    },
+    "lsp": {
+      "source": "atopile/atopile",
+      "sourceType": "github",
+      "skillPath": ".claude/skills/lsp/SKILL.md",
+      "computedHash": "36485212c20413655cbd18052d044fef8af071c43052419a79004b45395cdc67"
+    },
+    "planning": {
+      "source": "atopile/atopile",
+      "sourceType": "github",
+      "skillPath": ".claude/skills/planning/SKILL.md",
+      "computedHash": "3d13a4e4460928c4fa0afa4b39a7b34dee7f8163cee551fad68434325d737603"
+    },
+    "pyzig": {
+      "source": "atopile/atopile",
+      "sourceType": "github",
+      "skillPath": ".claude/skills/pyzig/SKILL.md",
+      "computedHash": "eb4392d8ca2f9a50f5479f88850d83a754a4f5aa554f049ef96a19a10bf1bd49"
+    },
+    "sexp": {
+      "source": "atopile/atopile",
+      "sourceType": "github",
+      "skillPath": ".claude/skills/sexp/SKILL.md",
+      "computedHash": "09da10ddefbf4be99d0d829f1ffd3ed6ced98114f67c6c1c4b30c80f10c87a77"
+    },
+    "solver": {
+      "source": "atopile/atopile",
+      "sourceType": "github",
+      "skillPath": ".claude/skills/solver/SKILL.md",
+      "computedHash": "3ebe9bfee832ca5303b1d505e56439937ede31a363b2833a7d8a5948e4079586"
+    }
+  }
+}
